@@ -9,6 +9,7 @@ const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Component: ComponentScreen,
+    Giitt: githome,
     List: ListScreen
   },
   {
