@@ -27,6 +27,14 @@ const HomeScreen = ({ navigation }) => {
                 title='Go to Color Screen'
                 onPress={() => navigation.navigate('Color')}
             />
+            <Button
+                title='Go to Color Changer App Screen(useState)'
+                onPress={() => navigation.navigate('ColorChangerApp')}
+            />
+            <Button
+                title='Go to Color Changer App Screen(Reducer)'
+                onPress={() => navigation.navigate('ColorChangerAppReducer')}
+            />
 
         </View>
     )
