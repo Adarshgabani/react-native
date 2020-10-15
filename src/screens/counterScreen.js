@@ -5,6 +5,7 @@ const CounterScreen = () => {
     const [counter, setCounter] = useState(0);
     return (
         <View>
+            <Text>Counter Using useState</Text>
             <Button
                 title="Increment"
                 onPress={() => {

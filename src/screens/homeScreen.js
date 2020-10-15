@@ -20,8 +20,12 @@ const HomeScreen = ({ navigation }) => {
                 onPress={() => navigation.navigate('Image')}
             />
             <Button
-                title='Go to Counter Screen'
+                title='Go to Counter Screen(useState)'
                 onPress={() => navigation.navigate('Counter')}
+            />
+            <Button
+                title='Go to Counter Screen(useReducer)'
+                onPress={() => navigation.navigate('CounterReducer')}
             />
             <Button
                 title='Go to Color Screen'
@@ -34,6 +38,10 @@ const HomeScreen = ({ navigation }) => {
             <Button
                 title='Go to Color Changer App Screen(Reducer)'
                 onPress={() => navigation.navigate('ColorChangerAppReducer')}
+            />
+            <Button
+                title='Go to TextInput Screen'
+                onPress={() => navigation.navigate('TextInput')}
             />
 
         </View>

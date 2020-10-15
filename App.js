@@ -8,6 +8,11 @@ import CounterScreen from './src/screens/counterScreen';
 import ColorScreen from './src/screens/colorScreen';
 import ColorChangerAppScreen from './src/screens/colorChangerAppScreen';
 import ColorChangerAppWithReducer from './src/screens/colorChangeAppScreenWithReducer'
+import CounterScreenWithReducer from './src/screens/counterScreenWithReducer';
+import textInputScreen from './src/screens/textInputScreen';
+import TextInputScreen from './src/screens/textInputScreen';
+
+
 
 
 const navigator = createStackNavigator(
@@ -17,9 +22,11 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Image: ImageScreen,
     Counter: CounterScreen,
+    CounterReducer: CounterScreenWithReducer,
     Color: ColorScreen,
     ColorChangerApp: ColorChangerAppScreen,
-    ColorChangerAppReducer: ColorChangerAppWithReducer
+    ColorChangerAppReducer: ColorChangerAppWithReducer,
+    TextInput: TextInputScreen
   },
   {
     initialRouteName: 'Home',
