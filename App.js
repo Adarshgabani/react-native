@@ -3,8 +3,9 @@ import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from './src/screens/homeScreen';
 import ListScreen from './src/screens/listScreen';
 import ComponentScreen from './src/screens/componentScreen';
-import ImageScren from './src/screens/imageScreen';
 import ImageScreen from './src/screens/imageScreen';
+import CounterScreen from './src/screens/counterScreen';
+
 
 
 const navigator = createStackNavigator(
@@ -12,7 +13,8 @@ const navigator = createStackNavigator(
     Home: HomeScreen,
     Component: ComponentScreen,
     List: ListScreen,
-    Image: ImageScreen
+    Image: ImageScreen,
+    Counter: CounterScreen,
   },
   {
     initialRouteName: 'Home',
