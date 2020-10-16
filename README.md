@@ -22,3 +22,7 @@ date: 16th of October 2020, 12:26Am
                         reducer ----> Function        reducer(state,action)..........for more see in any file having word reducer in 'src/screens/'
                         init -------> any value eg. string, object, number,array etc.,
                   
+date: 16th of October 2020, 1:16PM
+      adding some styling and play with it.
+      
+End of repository.
