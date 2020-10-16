@@ -9,9 +9,8 @@ import ColorScreen from './src/screens/colorScreen';
 import ColorChangerAppScreen from './src/screens/colorChangerAppScreen';
 import ColorChangerAppWithReducer from './src/screens/colorChangeAppScreenWithReducer'
 import CounterScreenWithReducer from './src/screens/counterScreenWithReducer';
-import textInputScreen from './src/screens/textInputScreen';
 import TextInputScreen from './src/screens/textInputScreen';
-
+import BoxScreen from './src/screens/boxScreen';
 
 
 
@@ -26,7 +25,8 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     ColorChangerApp: ColorChangerAppScreen,
     ColorChangerAppReducer: ColorChangerAppWithReducer,
-    TextInput: TextInputScreen
+    TextInput: TextInputScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName: 'Home',
